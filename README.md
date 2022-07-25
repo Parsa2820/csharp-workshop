@@ -1,3 +1,54 @@
+# Notes
+* Introduction
+  * What is C#?
+    * Type system: strongly typed
+    * Paradigm: object oriented + funtional techniques
+  * What is dotnet
+    * Framework for CLI (common language infrastructure) developed by MS
+    * Not only for C# (F#, VB, ...)
+    * Open source reimplementation since 2016
+* Programming with C#
+  * What are solution and project and namespace and nuget?
+  * Primary datatypes + var keyword
+  * Flow control: if, while, for, foreach
+  * Structures: method, struct, interface, enum, class, record
+  * Class field vs property
+  * Generic type
+  * Object and list initializer
+  * Property init vs private set
+  * Naming conventions
+  * Lambda expression
+  * LINQ
+    * Extension methods: definition + usage
+    * Query syntax
+    * Why LINQ?
+      * Easier to comprehend
+      * Less bug-prune
+      * Fewer side-effects
+  * Usefull NuGet packages
+    * dotnet-repl
+    * dotnet-script
+* C# in Depth
+  * Syntax sugar [sharplab.io](https://sharplab.io/)
+    * num+=1
+    * property
+    * known variable in compile time
+    * record
+  * Compilation
+    * All dotnet languages including C# complile to IL (intermediate language)
+      * `dotnet build`: creates IL files (.dll, .exe, ...)
+      * CLR (common language runtime) executes IL files
+      * Using JIT (just in time) technique
+* Further Study
+  * Delegate + Action and Func
+  * Pattern matching
+  * Attribute
+  * Nullable
+  * Async
+  * Unsafe context and pointers
+
+# Project Structure
+
 ```bash
 dotnet new sln
 ```
